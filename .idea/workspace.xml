@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66cd09c0-35e7-4da4-9ca5-65dd07854c96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/1-st-Semester-Layered-Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/bo/BOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/bo/SuperBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/controller/LoginFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/controller/WelcomeFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/dao/CrudDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/dao/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/dao/SQLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/dao/SuperDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Bill_payment_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Changes_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Customer_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Employee_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Ems_parcel_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Ems_parcel_service_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Item_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Mails_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Money_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Order_Details_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Orders_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Parcel_Order_Details_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/Postman_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/entity/User_Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/util/MailPack/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/java/lk/ijse/posm/util/ValidationPattern/RegExPatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Bill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Curior.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Dollar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Employee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Employee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Employeee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/EndemicButterfliesOfSL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/MoneyGrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Orderreport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/PosmDashBoard .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/ReviewBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/ReviewBackgroundForPdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Rs.10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Rs.15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Rs.20Stamp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Rs.5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Rs.50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/RsStamp20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/ShoppingCart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/Signout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/TimeStamp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/back-t0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/dashBoardWelcomeGif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/emailMail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/employee-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/employee6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/employee7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/employeeimg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/employeeimg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/employeeimg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/eyeClose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/eyeOpen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/shoppingBag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/stampRs.100.00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/stampRs100.00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/assert/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/report/ItemReport.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/report/billPayment.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/report/curiorReport.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/report/moneyTransfer.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/report/todayMailDetails.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/OtpForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/addPostMan.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/addUserStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/curiorDetailsFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/curiorFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/currencyStoreFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/dashBoardFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/emailGetFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/employeeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/mailFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/moneyTransferFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/orderFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/productFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/settingsStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/style/utilityBillsFormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/view/loginForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-st-Semester-Layered-Project/src/main/resources/view/welcomeForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CIC_Project (1) 3/CIC_Project (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CIC_Project (1) 3/CIC_Project/CIC_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FaceApp/FaceApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruits-Market-master 2/.idea/Fruits-Market-master 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruits-Market-master 2/FruitMarket/FruitMarket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruits-Market-master 2/FruitMarket/out/production/FruitMarket/FruitMarket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruits-Market-master 2/FruitMarket/src/FruitMarket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future Tech Solutions/CIC_Project (1) 3/CIC_Project (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future Tech Solutions/CIC_Project (1) 3/CIC_Project/CIC_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future Tech Solutions/CIC_Project 2/CIC_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fxproject/Fxproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBegginer/JBegginer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client2/Client2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client3/Client3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Client3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/JavaShocketProgrammin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaShocketProgrammin/Server/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPortfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOpWorks/Example/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOpWorks/OOP/OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOpWorks/OOP/oop_Nimna/oop_Nimna.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOpWorks/OOP/oop_Nimna/untitled104.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Assignment 03/Assignment 03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Calculator_NimnaKaveesha_GDSE_65/Calculator_NimnaKaveesha_GDSE_65/Calculator_NimnaKaveesha_GDSE_65.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Calculator_NimnaKaveesha_GDSE_65/Calculator_NimnaKaveesha_GDSE_65/out/production/Calculator_NimnaKaveesha_GDSE_65/Calculator_NimnaKaveesha_GDSE_65.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Room Reservation System-project/.idea/Room Reservation System-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Room Reservation System-project/GDSE61_ITS1114_Ruvini_Rangathara.zip/GDSE61_ITS1114_Ruvini_Rangathara.zip.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Room Reservation System-project/GDSE61_ITS1114_Ruvini_Rangathara.zip/roomReservationSystem/module-01/module-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Room Reservation System-project/roomReservationSystem/module-01/module-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Room Reservation System-project/roomReservationSystem/roomReservationSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/Sample project/Sample project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oop Assignments/passenger/passenger.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Post Office Management System 2 3/.idea/Post Office Management System 2 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Post Office Management System 2 3/Post Office Management System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Post Office Management System/Psahan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sample/Sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Team/Team.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thogakade/thogakade.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/src/main/java/com/example/chatapp/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/src/main/java/com/example/chatapp/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApp/src/main/resources/com/example/chatapp/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/controller/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/controller/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/resources/clientApplication.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/resources/serverApplication.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha/.idea/connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha/connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha 2/.idea/connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Rdcrri51Y77iAjpwrM4YJiOz28" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66cd09c0-35e7-4da4-9ca5-65dd07854c96" name="Changes" comment="" />
+      <created>1687583608621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687583608621</updated>
+      <workItem from="1687583610893" duration="1988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
