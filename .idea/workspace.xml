@@ -155,28 +155,10 @@
       <change afterPath="$PROJECT_DIR$/../Sample/Sample.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Team/Team.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Thogakade/thogakade.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/src/main/java/com/example/chatapp/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/src/main/java/com/example/chatapp/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatApp/src/main/resources/com/example/chatapp/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/controller/ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/java/controller/ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/resources/clientApplication.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chatAppSample/src/main/resources/serverApplication.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatApplication/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha/.idea/connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha/connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha 2/.idea/connect-four-game-assignment _OOP_CourseWork_NimnaKaveesha.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,21 +185,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "structure",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;structure&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -227,6 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687583608621</updated>
       <workItem from="1687583610893" duration="1988000" />
+      <workItem from="1687969331786" duration="291000" />
     </task>
     <servers />
   </component>
