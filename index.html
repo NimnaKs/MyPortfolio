@@ -3,24 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>MyPortFolio</title>
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
 </head>
-<style>
-    .blue-color {
-        background: #161D26;
-        color: white;
-    }
-</style>
-<style>
-    #black-color {
-        background: #000000;
-        color: white;
-    }
-</style>
 <body>
 
 <!--/////////////////////////// Header Section Creation//////////////////////////////-->
 
-<header class="blue-color">
+<header>
     <img src="/assets/NKLogo.png" title="NKLogo" width="50" height="50">
     <h3>NimnaKs</h3>
     <nav>
@@ -35,7 +24,7 @@
 
 <!--///////////////////////////Home Section Creation//////////////////////////////-->
 
-<main id="Home" class="blue-color">
+<main id="Home">
 
     <section>
 
@@ -110,7 +99,7 @@
 <!--///////////////////////////Education Section Creation//////////////////////////////-->
 
 
-<main class="blue-color">
+<main>
 
     <section>
 
@@ -214,7 +203,7 @@
 
 <!--///////////////////////////Experience Section Creation//////////////////////////////-->
 
-<main class="blue-color">
+<main>
 
     <section>
 
@@ -352,7 +341,7 @@
 
 <!--///////////////////////////Project Section Creation//////////////////////////////-->
 
-<main id="Project" class="blue-color">
+<main id="Project">
 
     <section>
 
@@ -410,7 +399,7 @@
 
 <!--///////////////////////////Gallery Section Creation//////////////////////////////-->
 
-<main id="Gallery" class="blue-color">
+<main id="Gallery">
 
     <section>
 
@@ -449,23 +438,24 @@
     </section>
 
     <section>
-        <input type="text" placeholder="Name">
-        <br><br>
-        <input type="text" placeholder="Email">
-        <br><br>
-        <input type="text" placeholder="Contact No">
-        <br><br>
-        <input type="text" placeholder="Message">
-        <br><br>
-        <button>Send</button>
-
+        <form>
+            <input type="text" placeholder="Name">
+            <br><br>
+            <input type="email" placeholder="Email">
+            <br><br>
+            <input type="text" placeholder="Contact No">
+            <br><br>
+            <textarea placeholder="Message" cols="30" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Send</button>
+        </form>
     </section>
 
 </main>
 
 <!--///////////////////////////Footer Section Creation//////////////////////////////-->
 
-<footer id="black-color">
+<footer>
     <section>
         <h4>Follow Me</h4>
         <div>
