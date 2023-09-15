@@ -1,0 +1,110 @@
+#Home{
+    width: 100%;
+    height: 92vh;
+    z-index: 9999;
+}
+
+#Home section:first-child>div{
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 600px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+#Home section:first-child>div:first-child>span{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Home section:first-child>div:first-child>span:first-child{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Home section:first-child>div>img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    display: block;
+}
+
+#Home section:first-child>div:first-child>span:nth-child(3){
+    display: block;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+#Home_media{
+    margin-top: 20px;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+#Home_hireMe{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+#Home button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+    color: #161D26;
+    font-size: 25px;
+    font-family: Arial, serif;
+    font-weight: bold;
+}
+
+#Home_hireMe button img {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#Home section:nth-child(2)>span:first-child{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    top: 180px;
+    left: 500px;
+}
+
+#Home section:nth-child(2)>span:nth-child(2){
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 245px;
+    left: 500px;
+}
+
+#Home section:nth-child(2)>span:nth-child(3){
+    position: absolute;
+    font-size: 25px;
+    top: 332px;
+    left: 500px;
+}
+
+#Home section:nth-child(2)>span:nth-child(4){
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+    top: 482px;
+    left: 530px;
+    text-align: center;
+}
+
+#Home section:nth-child(2)>span:last-child{
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    top: 482px;
+    left: 900px;
+}
