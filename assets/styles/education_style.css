@@ -1,0 +1,91 @@
+#Education {
+    width: calc(100vw - 20px);
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#Education section h2 {
+    font-size: 50px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.education-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#Education section>div>div>h4{
+    color:#161D26;
+    background-color: #FFFFFF;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    left: -28px;
+}
+
+#Education section>div>div>h4:nth-child(1),
+#Education section>div>div>h4:nth-child(3){
+    position: relative;
+    left: -28px;
+}
+
+#Education section>div>div>div{
+    border: 4px solid white;
+    width: 200px;
+    height: 320px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: -40px;
+}
+
+#Education section>div>div>div>h4{
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#Education section>div>div>div>img{
+    align-self: center;
+}
+
+#Education section>div>img{
+    align-self: center;
+    margin-left: 200px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+#Education section>div>img:nth-child(2){
+    margin-left: -100px;
+}
+
+#Education section>div>img{
+    align-self: center;
+    margin-left: 200px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.vertical-line {
+    border-left: 5px solid white;
+    height: 400px;
+    position: relative;
+    left: 90px;
+}
+
+#education-logo{
+    position: relative;
+    left: -200px;
+}
