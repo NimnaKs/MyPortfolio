@@ -1,6 +1,226 @@
 #Gallery{
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 5200px;
+    width: 100vw;
+    height: auto;
 }
+
+#Gallery section>div:first-child {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: whitesmoke solid 5px;
+    width: 500px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+}
+
+.main-area{
+    margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar */
+}
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+#Gallery img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+code {
+    font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+Cards:
+--------------------------------------------------------------*/
+
+.cards {
+    max-width: 25em;
+    margin: 1em auto;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.cards a {
+    display: block;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.caption {
+    padding: 1em;
+    font-size: 90%;
+    color: black;
+}
+
+.caption-title {
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+
+.location {
+    padding: .5em 0;
+    color: hsl(0, 0%, 40%);
+}
+
+.caption p {
+    margin-top: .5em;
+    margin-bottom: 0;
+    line-height: 1.3em;
+}
+
+.cards a:focus .caption,
+.cards a:hover .caption {
+    background: hsl(0, 0%, 97%);
+}
+
+/*--------------------------------------------------------------
+CSS Grid layout for wider screens, when browser supports grid:
+--------------------------------------------------------------*/
+@supports (grid-area: auto) {
+
+    @media screen and (min-width: 27em) {
+
+        .cards {
+            margin: 0 auto;
+            padding: 1em;
+        }
+
+        .card-item,
+        .card-item a {
+            display: flex;
+            align-items: stretch;
+            width: 100%;
+        }
+
+        .cards a:focus,
+        .cards a:hover {
+            outline: 1px solid hsl(0, 0%, 80%);
+        }
+
+        .cards a:focus .caption,
+        .cards a:hover .caption {
+            background: white;
+        }
+
+        .card {
+            margin: .5em;
+            display: grid;
+            grid-template-columns: 8em auto;
+            overflow: hidden;
+        }
+
+        .card img {
+            /*       height: 100%;
+                  width: auto; */
+        }
+
+        .caption {
+            background: white;
+        }
+
+    }
+
+    @media screen and (min-width: 62em) {
+
+        .cards {
+            max-width: none;
+            margin: 1em 0;
+            padding: 0 1em;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 25em);
+            grid-gap: 1em;
+            justify-content: center;
+        }
+
+        .double {
+            grid-row: span 3;
+        }
+
+        .double .card {
+            display: block;
+        }
+
+        .double img {
+            height: calc( (100% / 3) * 2 + .5em);
+        }
+
+    }
+
+}
+
+/*#Experience section div>div{
+    width: 40vw;
+    height: 80vh;
+    margin: 0 auto;
+}
+#Experience section h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#Experience section h3 {
+    background-color: #FFFFFF;
+    color: #161D26;
+    text-align: center;
+}
+
+#Experience section img{
+    padding-left: 50px;
+    display: inline-block;
+}
+
+#Experience section h4:nth-child(1){
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    left: 10px;
+}
+
+.experience_container_1{
+    display: flex;
+    flex-direction: row;
+
+}*/
+
