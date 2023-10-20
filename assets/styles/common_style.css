@@ -1,6 +1,25 @@
 .blue_background{
-    background-color: #161D26;
-    color: #FFFFFF;
-    font-family: sans-serif;
-    overflow: hidden;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    color: white;
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+    font-family: Arial, serif;
+    font-weight: bold;
+    /*overflow: hidden;*/
 }
+
+/*
+.white_background{
+    background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+    color: #0d324d;
+    font-family: Arial, serif;
+    font-weight: bold;
+}*/
+
+/*
+.gradient-text {
+    background: linear-gradient(65deg, #382CC5, #7C86DC);
+    -webkit-background-clip: text;
+    color: transparent;
+}*/
