@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="assets/styles/education_style.css">
     <link rel="stylesheet" href="assets/styles/experience_style.css">
     <link rel="stylesheet" href="assets/styles/skills_style.css">
-    <!--<link rel="stylesheet" href="../assets/styles/assignment_style.css">
-    <link rel="stylesheet" href="../assets/styles/contact_style.css">
-    <link rel="stylesheet" href="../assets/styles/gallery_style.css">
+    <!--<link rel="stylesheet" href="../assets/styles/assignment_style.css">-->
+    <link rel="stylesheet" href="assets/styles/contact_style.css">
+   <!-- <link rel="stylesheet" href="../assets/styles/gallery_style.css">
     <link rel="stylesheet" href="../assets/styles/event_style.css">
     <link rel="stylesheet" href="../assets/styles/project_style.css">-->
 
@@ -44,7 +44,7 @@
                 <li class="nav-item"><a href="#About">About</a></li>
                 <li class="nav-item"><a href="#Assignment">Assignment</a></li>
                 <li class="nav-item"><a href="#Project">Project</a></li>
-                <li class="nav-item"><a href="#Contact">Contact Us</a></li>
+                <li class="nav-item"><a href="#ContactForm">Contact Us</a></li>
             </ul>
         </nav>
     </div>
@@ -82,7 +82,7 @@
             </div>
 
             <div class="home_hireMe">
-                <a href="#Contact">
+                <a href="#ContactForm">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -120,21 +120,30 @@
 <main id="About">
 
     <section>
-        <img src="assets/img/aboutImg.png" alt="About Image" width="400">
+        <div class="image-card">
+            <img src="assets/img/aboutImg.jpeg" alt="About Img">
+            <h2>About Me</h2>
+            <ul>
+                <li><i class="fab fa-facebook-f"></i><span>Smile</span></li>
+                <li><i class="fab fa-twitter"></i><span>Bold</span></li>
+                <li><i class="fab fa-instagram"></i><span>Fresh</span></li>
+                <li><i class="fab fa-youtube"></i><span>Creative</span></li>
+            </ul>
+        </div>
     </section>
 
     <section>
-        <h2><u>Who Am I ?</u></h2>
-        <h1>Hello,</h1>
-        <h3>
+        <div>Who Am I ?</div>
+        <div>Hello,</div>
+        <div>
             I am a  future-focused undergraduate pursuing a software <br> engineering diploma and a physical
             science degree .<br>Aspiring to lead as a software company CEO , project<br>manager , full-stack developer
             , and  mathematics professor ,<br>driven  by innovation and excellence.
-        </h3>
+        </div>
 
         <div>
-            <button>
-                Download CV
+            <button type="button" class="downloadBtn" data-dl>
+                <span class="dl-icon"></span><span>&#x44;&#x6F;&#x77;&#x6E;&#x6C;&#x6F;&#x61;&#x64;</span>
             </button>
         </div>
 
@@ -149,7 +158,7 @@
 
     <section>
 
-        <h2><u>Education</u></h2>
+        <div>Education</div>
 
         <div class="education-container">
             <div>
@@ -500,7 +509,7 @@
 
 <!--///////////////////////////Contact Section Creation//////////////////////////////-->
 
-<main id="Contact">
+<main id="ContactForm">
 
     <h2><u>Contact Me</u></h2>
 
