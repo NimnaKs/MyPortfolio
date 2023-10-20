@@ -4,11 +4,21 @@
     padding: 10px;
 }
 
-#Skills section h2 {
+#Skills img{
+    width: 150px;
+    align-items: center;
+}
+
+#Skills section>div:first-child {
     font-size: 50px;
-    font-family: "Times New Roman", serif;
     font-weight: bold;
     text-align: center;
+    border: black solid 5px;
+    width: 500px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 #skill_container{
