@@ -23,3 +23,7 @@
     -webkit-background-clip: text;
     color: transparent;
 }*/
+
+body{
+    overflow-x: hidden;
+}

@@ -41,3 +41,15 @@ function getMSFromProperty(property,selector) {
     else if (sLabelPos > -1)
         return transDur.substr(0,sLabelPos) * 1e3;
 }
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("animate-in");
+        }
+    });
+});
+
+document.querySelectorAll(".MediaItem").forEach((el) => {
+    observer.observe(el);
+});

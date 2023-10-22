@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?familyPoppins:100,200,300,400,500,600,700,800,900');
+
+#Experience{
+    width: 100vw;
+    height: auto;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*#Experience section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}*/
+
+#Experience>div:first-child{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: whitesmoke solid 5px;
+    width: 500px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+}
+
+#Experience section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+.experienceContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:100px 50px;
+    padding:100px 50px;
+    color: black;
+}
+
+.experienceContainer .experience-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 28px;
+    /*box-shadow: 0 35px 80px rgba(0,0,0,8.15);*/
+    transition: 0.5s;
+}
+
+.experience-card:hover{
+    height: 400px;
+}
+
+.experienceContainer .experience-card .ImgBx{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #3f3f3f;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.experienceContainer .experience-card:hover .ImgBx{
+    top:-100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.experienceContainer .experience-card  .ImgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.experienceContainer .experience-card .content{
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.experienceContainer .experience-card:hover .content{
+    top:200px;
+    height: 250px;
+}
+
+.experienceContainer .experience-card .content h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--clr);
+}
+
+.experienceContainer .experience-card .content p{
+    color: #3f3f3f;
+    margin-top: 10px;
+}
+
+
+
+/*
+.experience_container_1 img{
+    width: 380px;
+    height: 250px;
+    border-radius:10px;
+    opacity: 0.9;
+}
+
+.experience_container_1{
+    width: 80%;
+    height: 250px;
+    !*background-color: whitesmoke;*!
+    opacity:0.7;
+    border-radius: 10px;
+    align-self: center;
+    background-color: #9fa4c4;
+    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+
+}
+
+.experience_container_1>div:nth-child(1){
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+.topic{
+    color: black;
+    font-size: 20px;
+    border: black solid 2px;
+    margin: 20px;
+    width: 47vw;
+    text-align: center;
+}
+
+.card_content{
+    color: black;
+    width: 47vw;
+    margin: 20px;
+}*/
