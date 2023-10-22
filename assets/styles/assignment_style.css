@@ -1,8 +1,66 @@
+@import url('https://fonts.googleapis.com/css?familyPoppins:100,200,300,400,500,600,700,800,900');
+
 #Assignment{
-    width: 100%;
+    width: 100vw;
     height: auto;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-#Assignment h2{
+#Assignment>div:first-child{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: black solid 5px;
+    width: 500px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 20px;
+    margin: auto;
+}
 
+#Assignment section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+.assignment_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:80px 30px;
+    padding:80px 30px;
+}
+
+.assignment_container .assignment_card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 280px;
+    height: 240px;
+    background: white;
+    border-radius: 28px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0 0 0 3px;
+
+}
+
+.assignment_container img{
+    width: 150px;
+    height: 100px;
+}
+
+.assignment_container .assignment_card .assignment_item{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
 }
