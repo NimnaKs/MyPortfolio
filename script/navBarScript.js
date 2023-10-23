@@ -53,3 +53,4 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll(".MediaItem").forEach((el) => {
     observer.observe(el);
 });
+
