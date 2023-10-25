@@ -125,3 +125,15 @@ footer .footer-menu ul li a:hover{
         margin-bottom: 20px;
     }
 }
+
+@media (max-width:500px) {
+    footer .footer-menu {
+        margin-right: -23px;
+    }
+    footer .footer-menu ul li{
+        font-size: 13px;
+    }
+    footer .footer-bottom p {
+        margin-left: 64px;
+    }
+}

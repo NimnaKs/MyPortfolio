@@ -201,3 +201,9 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+    #Project .project-card-grid-space{
+        margin-left: -32px;
+    }
+}

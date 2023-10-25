@@ -1,5 +1,4 @@
 #Home {
-    margin-top: -32px;
     width: 100%;
     height: 92vh;
     position: relative;
@@ -226,149 +225,22 @@
     }
 }
 
-/*@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
     #Home{
-        height: 150vh;
+        height: 100vh;
     }
-}*/
-
-@media screen and (max-width: 320px) {
-    #Home{
-        height: 150vh;
-    }
-
-    #Home .homeCard {
-        width: 100%;
-        height: 400px; /* Allow the height to adjust to the content */
-        border-radius: 20px; /* Remove border-radius */
-        border: 2px solid white; /* Adjust border width */
-        margin-top: -17px;
-    }
-
-    #Home .homeCard > span {
-        font-size: 20px; /* Reduce font size */
-    }
-
-    #Home .myPic {
-        width: 150px; /* Adjust image width */
-    }
-
-    #Home .home_hireMe {
-        margin-top: 10px; /* Adjust top margin */
-    }
-
-    #Home .home_media img{
-        width: 40px;
+    .leftSideSection{
+        display: none;
     }
 }
 
-
-
-/*@media screen and (max-width: 1024px) {
-    .roller {
-        height: 2.6rem;
-        line-height: 2.125rem;
+@media (max-width: 768px) {
+    #Home{
+        height: 120vh;
     }
 
-    #spare-time {
-        font-size: 1rem;
-        font-style: italic;
-        letter-spacing: 0.1rem;
+    .leftSideSection{
+        display: none;
     }
 
-    .roller #rolltext {
-        animation: slide-mob 5s infinite;
-    }
-
-    @keyframes slide-mob {
-        0% {
-            top: 0;
-        }
-        10% {
-            top: -2.125rem;
-        }
-        20% {
-            top: -4.25rem;
-        }
-        30% {
-            top: -6.325rem;
-        }
-        40% {
-            top: -8.45rem;
-        }
-        50% {
-            top: -10.575rem;
-        }
-        60% {
-            top: -12.8rem;
-        }
-        70% {
-            top: -14.925rem;
-        }
-        80% {
-            top: -17.050rem;
-        }
-        90.25% {
-            top: -19.375rem;
-        }
-    }
-}*/
-
-
-/*
-@media screen and (max-width: 600px) {
-    h1 {
-        text-align: center;
-        text-transform: uppercase;
-        color: #F1FAEE;
-        font-size: 2rem;
-    }
-
-    .roller {
-        height: 2.6rem;
-        line-height: 2.125rem;
-    }
-
-    #spare-time {
-        font-size: 1rem;
-        letter-spacing: 0.1rem;
-    }
-
-    .roller #rolltext {
-        animation: slide-mob 5s infinite;
-    }
-
-    @keyframes slide-mob {
-        0% {
-            top: 0;
-        }
-        10% {
-            top: -2.125rem;
-        }
-        20% {
-            top: -4.25rem;
-        }
-        30% {
-            top: -6.325rem;
-        }
-        40% {
-            top: -8.45rem;
-        }
-        50% {
-            top: -10.575rem;
-        }
-        60% {
-            top: -12.8rem;
-        }
-        70% {
-            top: -14.925rem;
-        }
-        80% {
-            top: -17.050rem;
-        }
-        90.25% {
-            top: -19.375rem;
-        }
-    }
 }
-*/

@@ -421,9 +421,17 @@
         margin-top: -80px;
     }
 
+    #About{
+        margin-top: 70px;
+    }
+
 }
 
-
+@media (max-width: 768px) {
+    #About{
+        margin-top: 70px;
+    }
+}
 
 
                                                                                                                                                                                                             Regenerate
