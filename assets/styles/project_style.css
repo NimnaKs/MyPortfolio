@@ -5,8 +5,10 @@
     --transition-time: 0.5s;
 }
 
-#Project{
-    box-sizing: border-box;
+#Project .heading-top{
+    color: black;
+    border: black solid 5px;
+    font-weight: bold;
 }
 
 #Project{
@@ -15,26 +17,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-#Project>div:first-child{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    border: black solid 5px;
-    width: 500px;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 20px;
-    bottom: 20px;
-    margin: auto;
-}
-
-
-#Project{
-    margin: 0;
     min-height: 100vh;
     font-family: 'Open Sans';
     background: #fafafa;

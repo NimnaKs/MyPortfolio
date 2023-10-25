@@ -3,21 +3,8 @@
     height: auto;
 }
 
-#Gallery section>div:first-child {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    border: whitesmoke solid 5px;
-    width: 500px;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 20px;
-    margin: auto;
-}
-
 .main-area{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -189,38 +176,4 @@ CSS Grid layout for wider screens, when browser supports grid:
     }
 
 }
-
-/*#Experience section div>div{
-    width: 40vw;
-    height: 80vh;
-    margin: 0 auto;
-}
-#Experience section h2 {
-    font-size: 50px;
-    text-align: center;
-}
-
-#Experience section h3 {
-    background-color: #FFFFFF;
-    color: #161D26;
-    text-align: center;
-}
-
-#Experience section img{
-    padding-left: 50px;
-    display: inline-block;
-}
-
-#Experience section h4:nth-child(1){
-    display: inline-block;
-    position: relative;
-    top: -150px;
-    left: 10px;
-}
-
-.experience_container_1{
-    display: flex;
-    flex-direction: row;
-
-}*/
 

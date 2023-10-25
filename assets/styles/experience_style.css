@@ -10,24 +10,8 @@
 
 }
 
-/*#Experience section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 60px;
-}*/
-
-#Experience>div:first-child{
-    font-size: 50px;
+#Experience .heading-top{
     font-weight: bold;
-    text-align: center;
-    border: whitesmoke solid 5px;
-    width: 500px;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 20px;
-    margin: auto;
 }
 
 #Experience section{
@@ -111,6 +95,7 @@
     font-size: 1.5em;
     font-weight: 700;
     color: var(--clr);
+    margin-top: 10px;
 }
 
 .experienceContainer .experience-card .content p{
