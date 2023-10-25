@@ -104,27 +104,14 @@
     }
 }
 
-/* Media Queries for Mobile */
-@media (max-width: 480px) {
-    .skill-container .hexagon-area .hexagon {
-        width: 100px;
-        height: 120px;
-        margin: 0 3px;
-        font-size: 12px;
-    }
-
-    .skill-container .hexagon-area .hexagon img {
-        width: 50px;
-    }
-
-    .skill-container .hexagon-area .hexagon h3 {
-        margin-top: 6px;
-        font-size: 12px;
-    }
-
-    /* Column Layout for Mobile */
+@media (max-width: 650px) {
     .skill-container .hexagon-area {
         flex-direction: column;
-        align-items: center;
+    }
+
+    .skill-container .hexagon-area .hexagon {
+        width: 200px; /* Increase the hexagon size */
+        height: 250px; /* Increase the hexagon size */
+        margin: 30px 0; /* Adjust margin for spacing */
     }
 }

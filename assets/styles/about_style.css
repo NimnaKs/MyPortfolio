@@ -1,4 +1,4 @@
-#About{
+#About {
     width: 100%;
     height: 92vh;
     font-family: 'Roboto', sans-serif;
@@ -9,77 +9,84 @@
     align-items: center;
 }
 
-#About section  img {
+#About section img {
     width: 400px;
     align-items: center;
 }
 
-#About section:nth-child(2){
+#About section:nth-child(2) {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
 }
 
-#About section:nth-child(2)>div{
+#About section:nth-child(2)>div {
     font-weight: bold;
 }
 
-#About section:nth-child(2)>div:nth-child(2){
+#About section:nth-child(2)>div:nth-child(2) {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 10px;
-
 }
 
-#About section:nth-child(2)>div:first-child{
+#About section:nth-child(2)>div:first-child {
     font-size: 50px;
     border: black solid 5px;
-    text-align: center;
     width: 400px;
     margin-top: -80px;
 }
 
-#About section:nth-child(2)>div:last-child{
+#About section:nth-child(2)>div:last-child {
     margin-top: 40px;
 }
 
-.image-card{
+.image-card {
     position: relative;
     width: 400px;
     overflow: hidden;
     border-radius: 3px;
     transition: all .4s;
+    margin: 0 auto; /* Center image card horizontally */
 }
-.image-card:hover{
-    box-shadow: 1px 1px 6px 1px rgba(0,0,0,.3);
+
+.image-card:hover {
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
 }
-.image-card:before{
+
+.image-card:before {
     content: '';
     position: absolute;
     top: 0;
     left: 180%;
     height: 100%;
     width: 75%;
-    background: rgba(255,255,255,.1);
+    background: rgba(255, 255, 255, 0.1);
     z-index: 1;
     transform: skew(45deg);
-    opacity: .7;
+    opacity: 0.7;
     pointer-events: none;
     transition: .5s;
 }
-.image-card:hover:before{
+
+.image-card:hover:before {
     left: -180%;
 }
-.image-card img{
+
+.image-card img {
     height: 100%;
     width: 100%;
     filter: grayscale(100%);
     transition: 2s;
 }
-.image-card:hover img{
+
+.image-card:hover img {
     filter: grayscale(0%);
     transform: scale(1.1);
 }
-.image-card h2{
+
+.image-card h2 {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -94,76 +101,34 @@
     transition: all .5s;
     text-align: center;
 }
-.image-card:hover h2{
+
+.image-card:hover h2 {
     transform: perspective(500px) rotateY(0deg);
 }
-.image-card ul{
+
+.image-card ul {
     position: absolute;
     list-style: none;
     top: 0;
     left: 0;
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
 }
-.image-card ul li{
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    background: whitesmoke;
-    cursor: pointer;
-    transition: all .5s;
-    transform: perspective(800px) rotateY(90deg);
-    transform-origin: left;
-    border-bottom: 1px solid whitesmoke;
-    opacity: 0.7;
-}
-.image-card:hover ul li{
-    transform: perspective(800px) rotateY(0deg);
-}
-.image-card:hover ul li:nth-child(1){
-    transition-delay: .2s;
-}
-.image-card:hover ul li:nth-child(2){
-    transition-delay: .6s;
-}
-.image-card:hover ul li:nth-child(3){
-    transition-delay: .8s;
-}
-.image-card:hover ul li:nth-child(4){
-    transition-delay: 1s;
-}
-.image-card ul li i{
-    font-size: 20px;
-    color: steelblue;
-    background: whitesmoke;
-    font-weight: bold;
-}
-ul li span{
-    position: absolute;
-    left: 10px;
-    font-size: 14px;
-    text-transform: uppercase;
-    background: whitesmoke;
-    color: steelblue;
-    border-bottom: 1px solid whitesmoke;
-    padding: 0 10px;
-    opacity: 0;
-    z-index: -1;
-    pointer-events: none;
-    transition: all .5s;
-    font-weight: bold;
-}
-ul li:hover span{
-    left: 30px;
-    opacity: 0.7;
-    pointer-events: auto;
-}
+
+/* Add your ul li and ul li span styles here */
 
 :root {
     --dur: 3s;
-    --arrowA: polygon(33% 0%,67% 0%,67% 60%,100% 60%,50% 100%,0% 60%,33% 60%);
-    --arrowB: polygon(0% 37.5%,100% 37.5%,100% 62.5%,100% 62.5%,50% 62.5%,0% 62.5%,0% 62.5%);
+    --arrowA: polygon(33% 0%, 67% 0%, 67% 60%, 100% 60%, 50% 100%, 0% 60%, 33% 60%);
+    --arrowB: polygon(0% 37.5%, 100% 37.5%, 100% 62.5%, 100% 62.5%, 50% 62.5%, 0% 62.5%, 0% 62.5%);
 }
 
+.downloadBtn {
+    display: flex;
+    font: 1em/1.5 Hind, sans-serif;
+    text-align: center;
+}
+
+/* Add your .downloadBtn styles here */
 .downloadBtn {
     display: flex;
     font: 1em/1.5 Hind, sans-serif;
@@ -410,56 +375,55 @@ ul li:hover span{
         transform: translate(0,0.375em) rotate(-45deg);
     }
 }
-/*#About{
-    width: 100%;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+
+/* Media Query for screen width less than 900px */
+@media (max-width: 900px) {
+    #About section:nth-child(2) {
+        order: -1; /* Move "Who Am I ?" section to the top */
+        margin-top: 110px; /* Add some spacing */
+    }
+
+    .image-card {
+        margin-top: 20px; /* Adjust the spacing */
+        margin-bottom: 200px;
+    }
+
+    #About{
+        height: 150vh;
+    }
 }
 
-#About section{
-    display: inline-block;
-    position: absolute;
+/* New Media Query for screen width less than 450px */
+@media (max-width: 450px) {
+    .image-card {
+        /*width: 300px; *//* Make the image card smaller */
+    }
+
+    #About section:nth-child(2) div {
+        font-size: 16px; /* Reduce the font size for all text */
+    }
 }
 
-#About section:nth-child(2){
-    position: relative;
-    left: 600px;
-    top: 80px;
+@media (max-width: 320px) {
+    .image-card {
+        width: 400px; /* Make the image card smaller */
+        margin-right: 30px;
+    }
+
+    #About section:nth-child(2) div {
+        font-size: 10px; /* Reduce the font size for all text */
+    }
+
+    #About section:nth-child(2)>div:first-child {
+        font-size: 45px;
+        border: black solid 5px;
+        width: 300px;
+        margin-top: -80px;
+    }
+
 }
 
-#About section  img {
-    margin-top: 100px;
-    margin-left: 100px;
-}
 
-#About section h2{
-    font-size: 50px;
-    position: relative;
-    top: 40px;
-}
 
-#About section h1{
-    font-size: 40px;
-    position: relative;
-    top: 40px;
-}
 
-#About section h3{
-    font-size: 20px;
-    position: relative;
-    top: 20px;
-}
-
-#About button{
-    border: none;
-    height: 40px;
-    width: 220px;
-    border-radius: 5px;
-    color: white;
-    background-color: #161D26;
-    font-size: 20px;
-    font-family: "Times New Roman", serif;
-    font-weight: bold;
-    position: relative;
-    top: 40px;
-}*/
+                                                                                                                                                                                                            Regenerate

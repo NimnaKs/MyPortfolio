@@ -180,6 +180,8 @@ header .menu-toggle:hover {
         transform: translate(-101%);
         text-align: center;
         overflow: hidden;
+        margin-top: -10px;
+        z-index: 1500;
     }
 
     header .navbar li {
