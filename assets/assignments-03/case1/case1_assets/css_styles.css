@@ -1,0 +1,116 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section>.main {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+section>.main:first-child {
+    background: red;
+}
+
+section>.main:nth-child(2) {
+    background: green;
+    right: 0;
+}
+
+section>.main:nth-child(3) {
+    background: orange;
+    bottom: 0;
+}
+
+section>.main:nth-child(4) {
+    background: deeppink;
+    right: 0;
+    bottom: 0;
+}
+
+section>.main>div:first-child{
+    width: 15vw;
+    height: 15vw;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+section>.main>div:first-child>div {
+    width: 7vw;
+    height: 7vw;
+    background: red;
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+#mid-box {
+    width: 15vw;
+    height: 15vw;
+    background: white;
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+#mid-box>div{
+    width: 9vw;
+    height: 9vw;
+    background: red;
+    position: absolute;
+    border-radius: 100%;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+section>.main>.quarter {
+    width: 7vw;
+    height: 7vw;
+    background: white;
+    position: absolute;
+}
+
+section>.main:first-child>.quarter,
+section>.main:nth-child(2)>.quarter{
+    border-radius: 0 0 100% 0;
+}
+
+section>.main:first-child>.quarter:nth-child(2),
+section>.main:nth-child(2)>.quarter:nth-child(2){
+    border-radius: 0 0 0 100%;
+    right: 0;
+}
+
+section>.main:nth-child(3)>.quarter,
+section>.main:nth-child(4)>.quarter{
+    border-radius: 0 100% 0 0;
+    bottom: 0;
+}
+
+section>.main:nth-child(3)>.quarter:nth-child(2),
+section>.main:nth-child(4)>.quarter:nth-child(2){
+    border-radius: 100% 0 0 0;
+    right: 0;
+    bottom: 0;
+}
