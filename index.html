@@ -22,7 +22,10 @@
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web 2/css/all.min.css">
     <link rel="stylesheet" href="assets/styles/project_style.css">
     <link rel="stylesheet" href="assets/styles/footer_style.css">
-
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
 
@@ -52,11 +55,11 @@
 
 <!--///////////////////////////Home Section Creation//////////////////////////////-->
 
-<main id="Home" class="blue_background">
+<main id="Home" class="blue_background ">
 
     <section class="rightSideSection">
 
-        <div class="homeCard">
+        <div class="homeCard animate__animated animate__backInDown --animate-duration 200s">
             <span>NimnaKs</span>
 
             <img class="myPic" src="assets/img/homeMyPic.png" title="MyHome Image" alt="My Image">
@@ -133,7 +136,7 @@
     </section>
 
     <section>
-        <div class="heading-top1">Who Am I ?</div>
+        <div class="heading-top1 animate__animated animate__bounceIn">Who Am I ?</div>
         <div>Hello,</div>
         <div>
             I am a  future-focused undergraduate pursuing a software <br> engineering diploma and a physical
@@ -142,9 +145,11 @@
         </div>
 
         <div>
-            <button type="button" class="downloadBtn" data-dl>
-                <span class="dl-icon"></span><span>&#x44;&#x6F;&#x77;&#x6E;&#x6C;&#x6F;&#x61;&#x64;</span>
-            </button>
+            <a href="assets/Cv.pdf" download="assets/Cv.pdf">
+                <button type="button" class="downloadBtn" data-dl>
+                    <span class="dl-icon"></span><span>&#x44;&#x6F;&#x77;&#x6E;&#x6C;&#x6F;&#x61;&#x64;</span>
+                </button>
+            </a>
         </div>
 
     </section>
@@ -216,7 +221,7 @@
 
     <section class="skills-content">
 
-        <div class="skill-container">
+        <div class="skill-container animate__fadeIn">
             <div class="hexagon-area first">
                 <div class="hexagon">
                     <img src="assets/img/javaLogo.png" alt="">
@@ -760,6 +765,8 @@
 </footer>
 
 <script src="script/jsScript/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 <script src="script/navBarScript.js"></script>
 </body>
 </html>
