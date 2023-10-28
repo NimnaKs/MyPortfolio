@@ -1,0 +1,185 @@
+#assignment-page{
+    position: relative;
+    width: 100vw;
+    height: 300vh;
+    top: 8vh;
+}
+
+#assignment-page .heading-top{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border: black solid 5px ;
+    width: 400px;
+    font-size: 50px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20px;
+}
+
+@media (min-width: 1025px) {
+    #assignment-page .heading-top{
+        width: 600px;
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #assignment-page .heading-top{
+        width: 300px;
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #assignment-page .heading-top{
+        width: 200px;
+        font-size: 30px;
+    }
+}
+
+.assignment-card-1 *,
+.assignment-card-2 *,
+.assignment-card-3 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, serif;
+}
+
+.assignment-card-1,
+.assignment-card-2,
+.assignment-card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 90vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -40px;
+}
+
+.container .card {
+    position: absolute;
+    width: 6em;
+    height: 7.5em;
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    font-size: 2em;
+    font-weight: bold;
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.5s;
+    transform-origin: 50% 100%;
+    filter: hue-rotate(calc(var(--i) * 50deg));
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+}
+
+.container:hover .card {
+    transform: rotate(calc(var(--i) * 5deg)) translate(calc(var(--i) * 120px), -50px);
+    color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+}
+
+.container:active .card {
+    background: #333;
+}
+
+.container .card:active {
+    transform: translate(0, calc(var(--i) * -20px));
+    z-index: 100;
+    background: #5e5cfe;
+}
+
+@media (max-width: 1024px) {
+
+    .container .card {
+        width: 7.5em; /* Further reduce card width */
+        height: 9em; /* Further reduce card height */
+        font-size: 1.2em; /* Further reduce font size */
+        border: 6px solid rgba(0, 0, 0, 0.1); /* Further reduce border size */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Further reduce box shadow */
+    }
+
+    .h3{
+        font-size: 1.2em;
+    }
+
+    /* Adjust the spread when hovering for 764px screens */
+    .container:hover .card {
+        transform: rotate(calc(var(--i) * 4deg)) translate(calc(var(--i) * 92px), -40px);
+    }
+}
+
+@media (max-width: 764px) {
+    .container .card {
+        width: 6em; /* Further reduce card width */
+        height: 7em; /* Further reduce card height */
+        font-size: 1em; /* Further reduce font size */
+        border: 6px solid rgba(0, 0, 0, 0.1); /* Further reduce border size */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Further reduce box shadow */
+    }
+
+    .h3{
+        font-size: 1em;
+    }
+
+    /* Adjust the spread when hovering for 764px screens */
+    .container:hover .card {
+        transform: rotate(calc(var(--i) * 4deg)) translate(calc(var(--i) * 55px), -40px);
+    }
+}
+
+@media (max-width: 425px) {
+    .container .card {
+        width: 5em; /* Further reduce card width */
+        height: 6em; /* Further reduce card height */
+        font-size: 0.8em; /* Further reduce font size */
+        border: 6px solid rgba(0, 0, 0, 0.1); /* Further reduce border size */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Further reduce box shadow */
+    }
+
+    .h3{
+        font-size: 0.8em;
+    }
+
+    /* Adjust the spread when hovering for 764px screens */
+    .container:hover .card {
+        transform: rotate(calc(var(--i) * 4deg)) translate(calc(var(--i) * 45px), -40px);
+    }
+}
+
+@media (max-width: 320px) {
+    .container .card {
+        width: 4.2em; /* Further reduce card width */
+        height: 6em; /* Further reduce card height */
+        font-size: 0.8em; /* Further reduce font size */
+        border: 6px solid rgba(0, 0, 0, 0.1); /* Further reduce border size */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Further reduce box shadow */
+    }
+
+    .h3{
+        font-size: 0.8em;
+    }
+
+    /* Adjust the spread when hovering for 764px screens */
+    .container:hover .card {
+        transform: rotate(calc(var(--i) * 4deg)) translate(calc(var(--i) * 35px), -40px);
+    }
+}

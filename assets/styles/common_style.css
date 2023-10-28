@@ -1,0 +1,17 @@
+/* Common Styles */
+body {
+    overflow-x: hidden;
+    font-family: Arial, serif;
+    font-weight: bold;
+}
+
+/* Header with Blue Gradient Background */
+.blue_background {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}

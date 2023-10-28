@@ -1,0 +1,246 @@
+#Home {
+    width: 100%;
+    height: 92vh;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rightSideSection {
+}
+
+.leftSideSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-content: space-around;
+}
+
+.homeCard {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 580px;
+    text-align: center;
+    justify-content: space-around;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.homeCard > span {
+    font-family: Arial, serif;
+    font-size: 30px;
+}
+
+.homeCard > span:first-child {
+    display: block;
+    text-align: center;
+}
+
+.myPic {
+    display: block;
+    width: 220px;
+    align-self: center;
+}
+
+.homeCard span:nth-child(3) {
+    display: block;
+    align-self: center;
+}
+
+.home_media {
+    align-self: center;
+}
+
+.home_media > a > img {
+    width: 45px;
+}
+
+.home_hireMe {
+    align-self: center;
+    margin-top: -25px;
+}
+
+.home_hireMe a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+
+.home_hireMe a span {
+    position: absolute;
+    display: block;
+}
+
+.home_hireMe a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+    50%, 100% {
+        left: 100%;
+    }
+}
+
+.home_hireMe a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, white);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+    50%, 100% {
+        top: 100%;
+    }
+}
+
+.home_hireMe a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+    50%, 100% {
+        right: 100%;
+    }
+}
+
+.home_hireMe a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, white);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+    50%, 100% {
+        bottom: 100%;
+    }
+}
+
+.leftSideSection > span:first-child {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.roller {
+    height: 4.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: steelblue;
+}
+
+#spare-time {
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 1rem;
+    margin-top: 0;
+    color: mediumpurple;
+}
+
+.roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 7s infinite;
+}
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+    10% {
+        top: -4rem;
+    }
+    20% {
+        top: -8rem;
+    }
+    30% {
+        top: -12rem;
+    }
+    40% {
+        top: -16rem;
+    }
+    50% {
+        top: -20rem;
+    }
+    60% {
+        top: -24rem;
+    }
+    70% {
+        top: -28rem;
+    }
+    80% {
+        top: -32rem;
+    }
+    90.25% {
+        top: -36rem;
+    }
+}
+
+@media (max-width: 320px) {
+    #Home{
+        height: 100vh;
+    }
+    .leftSideSection{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #Home{
+        height: 120vh;
+    }
+
+    .leftSideSection{
+        display: none;
+    }
+
+}

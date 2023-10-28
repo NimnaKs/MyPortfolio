@@ -1,0 +1,117 @@
+#Skills{
+    width: 100vw;
+    height: auto;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#Skills .heading-top{
+    color: black;
+    border: black solid 5px ;
+    font-family: Arial, serif;
+    font-weight: bold;
+}
+
+#Skills section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+/* Body Styles */
+.skills-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Skill Container Styles */
+.skill-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Hexagon Area Styles */
+.skill-container .hexagon-area {
+    display: flex;
+}
+
+/* Last Hexagon Style Adjustment */
+.skill-container .hexagon-area .last {
+    transform: translateY(-45px);
+}
+
+/* Hexagon Styles */
+.skill-container .hexagon-area .hexagon {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: #E5E0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Hexagon Image Styles */
+.skill-container .hexagon-area .hexagon img {
+    width: 80px;
+}
+
+/* Hexagon Title Styles */
+.skill-container .hexagon-area .hexagon h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+/* Hover Styles */
+.skill-container .hexagon-area .hexagon:hover {
+    background: #3C486B;
+    transform: scale(0.8);
+}
+
+/* Media Queries for Tablet */
+@media (max-width: 768px) {
+    .skill-container .hexagon-area .hexagon {
+        width: 150px;
+        height: 180px;
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .skill-container .hexagon-area .hexagon img {
+        width: 60px;
+    }
+
+    .skill-container .hexagon-area .hexagon h3 {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 650px) {
+    .skill-container .hexagon-area {
+        flex-direction: column;
+    }
+
+    .skill-container .hexagon-area .hexagon {
+        width: 200px; /* Increase the hexagon size */
+        height: 250px; /* Increase the hexagon size */
+        margin: 30px 0; /* Adjust margin for spacing */
+    }
+}
