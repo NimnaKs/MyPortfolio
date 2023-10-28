@@ -126,7 +126,7 @@ footer .footer-menu ul li a:hover{
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:325px) {
     footer .footer-menu {
         margin-right: -23px;
     }
@@ -135,5 +135,23 @@ footer .footer-menu ul li a:hover{
     }
     footer .footer-bottom p {
         margin-left: 64px;
+    }
+}
+
+@media (max-width:375px) {
+    footer .footer-menu {
+        margin-right: 1px;
+    }
+    footer .footer-menu ul li{
+        font-size: 13px;
+    }
+    footer .footer-bottom p {
+        margin-left: 82px;
+    }
+}
+
+@media (max-width:425px) {
+    footer .footer-bottom p {
+        margin-left: 95px;
     }
 }

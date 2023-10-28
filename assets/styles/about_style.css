@@ -389,7 +389,7 @@
     }
 
     #About{
-        height: 150vh;
+        height: 160vh;
     }
 }
 
@@ -430,5 +430,25 @@
 @media (max-width: 768px) {
     #About{
         margin-top: 70px;
+    }
+}
+
+@media (max-width: 375px) {
+    #About section:nth-child(2)>div:first-child {
+        font-size: 40px;
+        width: 312px;
+    }
+    #About section:nth-child(2)>div:nth-child(2){
+        margin-top: 45px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    #About section:nth-child(2)>div:nth-child(2){
+        margin-top: 10px;
+    }
+    #About section:nth-child(2) div {
+        font-size: 12px;
     }
 }

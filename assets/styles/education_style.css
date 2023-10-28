@@ -6,6 +6,10 @@
     outline: none;
 }
 
+#Education{
+    overflow-x: hidden;
+}
+
 .heading-top{
     text-align: center;
     font-weight: bold;

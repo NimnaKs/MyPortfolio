@@ -26,6 +26,7 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -52,6 +53,10 @@
         </nav>
     </div>
 </header>
+
+<div class="loading">
+    <div class="loader"></div>
+</div>
 
 <!--///////////////////////////Home Section Creation//////////////////////////////-->
 
@@ -122,14 +127,14 @@
 
 <main id="About">
 
-    <section>
+    <section data-aos="fade-up">
         <div class="image-card">
             <img src="assets/img/aboutImg.jpeg" alt="About Img">
-            <h2>About Me</h2>
+            <h2 data-aos="flip-left">About Me</h2>
         </div>
     </section>
 
-    <section>
+    <section data-aos="fade-up">
         <div class="heading-top1 animate__animated animate__bounceIn">Who Am I ?</div>
         <div>Hello,</div>
         <div>
@@ -160,7 +165,7 @@
 
         <div class="container">
 
-            <div class="timeline-block timeline-block-right">
+            <div class="timeline-block timeline-block-right" data-aos="fade-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h3>Holy Cross Collage</h3>
@@ -170,7 +175,7 @@
                 </div>
             </div>
 
-            <div class="timeline-block timeline-block-left">
+            <div class="timeline-block timeline-block-left" data-aos="fade-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h3>Esoft Metro Campus</h3>
@@ -180,7 +185,7 @@
                 </div>
             </div>
 
-            <div class="timeline-block timeline-block-right">
+            <div class="timeline-block timeline-block-right" data-aos="fade-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h3>Institute Of Software Engineering</h3>
@@ -190,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="timeline-block timeline-block-left">
+            <div class="timeline-block timeline-block-left" data-aos="fade-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h3>University of Colombo</h3>
@@ -210,39 +215,39 @@
 
 <main id="Skills">
 
-    <div class="heading-top">What I Am Best At ?</div>
+    <div class="heading-top ">What I Am Best At ?</div>
 
     <section class="skills-content">
 
-        <div class="skill-container animate__fadeIn">
+        <div class="skill-container">
             <div class="hexagon-area first">
-                <div class="hexagon">
+                <div class="hexagon animate__animated animate__pulse animate__infinite	infinite" data-aos="zoom-in">
                     <img src="assets/img/javaLogo.png" alt="">
                     <h3>Java</h3>
                 </div>
-                <div class="hexagon">
+                <div class="hexagon animate__animated animate__pulse animate__infinite	infinite" data-aos="zoom-in">
                     <img src="assets/img/HtmlLogo.png" alt="">
                     <h3>Html</h3>
                 </div>
-                <div class="hexagon">
+                <div class="hexagon animate__animated animate__pulse animate__infinite	infinite" data-aos="zoom-in">
                     <img src="assets/img/CssLogo.png" alt="">
                     <h3>Css</h3>
                 </div>
-                <div class="hexagon">
+                <div class="hexagon animate__animated animate__pulse animate__infinite	infinite" data-aos="zoom-in">
                     <img src="assets/img/JavaScriptLogo.png" alt="">
                     <h3>Js</h3>
                 </div>
             </div>
             <div class="hexagon-area last">
-                <div class="hexagon">
+                <div class="hexagon animate__animated animate__pulse animate__infinite	infinite" data-aos="zoom-in">
                     <img src="assets/img/jQuery.png" alt="">
                     <h3>Jquery</h3>
                 </div>
-                <div class="hexagon">
+                <div class="hexagon animate__animated animate__pulse animate__infinite	infinite" data-aos="zoom-in">
                     <img src="assets/img/Hibernate_logo_a.png" alt="">
                     <h3>hibernate</h3>
                 </div>
-                <div class="hexagon">
+                <div class="hexagon animate__animated animate__pulse animate__infinite	infinite" data-aos="zoom-in">
                     <img src="assets/img/bootstrap-logo-vector-removebg-preview.png" alt="">
                     <h3>Bootstrap</h3>
                 </div>
@@ -262,7 +267,7 @@
     <section>
 
         <div class="experienceContainer">
-            <div class="experience-card" style="--clr:#009688;">
+            <div class="experience-card" style="--clr:#009688;" data-aos="flip-up">
                 <div class="ImgBx">
                     <img src="assets/img/eperienceCeoFts.jpeg" alt="Innovesta winning image">
                 </div>
@@ -275,7 +280,7 @@
                 </div>
             </div>
 
-            <div class="experience-card" style="--clr:#ff3e7f;">
+            <div class="experience-card" style="--clr:#ff3e7f;" data-aos="flip-up">
                 <div class="ImgBx">
                     <img src="assets/img/headPrefectAppointImg.jpeg" alt="Head Prefect Appoint image">
                 </div>
@@ -288,7 +293,7 @@
                 </div>
             </div>
 
-            <div class="experience-card" style="--clr:#03a9f4;">
+            <div class="experience-card" style="--clr:#03a9f4;" data-aos="flip-up">
                 <div class="ImgBx">
                     <img src="assets/img/IjseScLogo.jpeg" alt="IJSE Student Society Logo image">
                 </div>
@@ -301,7 +306,7 @@
                 </div>
             </div>
 
-            <div class="experience-card" style="--clr:#ff3e7f;">
+            <div class="experience-card" style="--clr:#ff3e7f;" data-aos="flip-up">
                 <div class="ImgBx">
                     <img src="assets/img/EmblazonLogo.jpg" alt="Emblazon Logo image">
                 </div>
@@ -314,7 +319,7 @@
                 </div>
             </div>
 
-            <div class="experience-card" style="--clr:#03a9f4;">
+            <div class="experience-card" style="--clr:#03a9f4;" data-aos="flip-up">
                 <div class="ImgBx">
                     <img src="assets/img/fmajor.jpg" alt="FMajor Logo image">
                 </div>
@@ -327,7 +332,7 @@
                 </div>
             </div>
 
-            <div class="experience-card" style="--clr:#009688;">
+            <div class="experience-card" style="--clr:#009688;" data-aos="flip-up">
                 <div class="ImgBx">
                     <img src="assets/img/basketBall.jpeg" alt="BasketBall image">
                 </div>
@@ -355,7 +360,8 @@
 
         <div class="assignment_container">
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 1</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -368,7 +374,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 2</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -381,7 +388,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 3</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -394,7 +402,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 4</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -407,7 +416,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 5</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -420,7 +430,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 6</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -433,7 +444,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 7</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -446,7 +458,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 8</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -459,7 +472,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 9</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -472,7 +486,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 10</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -485,7 +500,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 11</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -498,7 +514,8 @@
                 </div>
             </div>
 
-            <div class="assignment_card">
+            <div class="assignment_card" data-aos="fade-up"
+                 data-aos-anchor-placement="center-center">
                 <h4>Assignment 12</h4>
                 <img src="assets/img/laptopAssignment.png" alt="Assignment Laptop Logo image">
                 <div class="assignment_item">
@@ -526,7 +543,7 @@
 
         <main id="content" class="main-area">
             <ul class="cards">
-                <li class="card-item double">
+                <li class="card-item double" data-aos="fade-down-right">
                     <figure class="card">
                         <img src="assets/img/myImage6.jpeg" alt="My Image 1">
                         <figcaption class="caption">
@@ -537,7 +554,7 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="card-item">
+                <li class="card-item" data-aos="fade-down-right">
                     <figure class="card">
                         <img src="assets/img/myImage8.jpeg" alt="My Image 2">
                         <figcaption class="caption">
@@ -548,7 +565,7 @@
                     </figure>
 
                 </li>
-                <li class="card-item">
+                <li class="card-item" data-aos="fade-down-right">
                     <figure class="card">
                         <img src="assets/img/myImage2.jpeg" alt="My Image 3">
                         <figcaption class="caption">
@@ -559,7 +576,7 @@
                     </figure>
                 </li>
                 <li class="card-item">
-                    <figure class="card">
+                    <figure class="card" data-aos="fade-down-right">
                         <img src="assets/img/myImage3.jpeg" alt="My Image 4">
                         <figcaption class="caption">
                             <h3 class="caption-title">Memory</h3>
@@ -568,7 +585,7 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="card-item">
+                <li class="card-item" data-aos="fade-down-right">
                     <figure class="card">
                         <img src="assets/img/myImage4.jpeg" alt="My Image 5">
                         <figcaption class="caption">
@@ -578,7 +595,7 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="card-item double">
+                <li class="card-item double" data-aos="fade-down-left">
                     <figure class="card">
                         <img src="assets/img/myImage5.jpeg" alt="My Image 6">
                         <figcaption class="caption">
@@ -587,7 +604,7 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="card-item">
+                <li class="card-item" data-aos="fade-down-left">
                     <figure class="card">
                         <img src="assets/img/myImage7.jpeg" alt="My Image 7">
                         <figcaption class="caption">
@@ -597,7 +614,7 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="card-item">
+                <li class="card-item" data-aos="fade-down-left">
                     <figure class="card">
                         <img src="assets/img/myImage10.jpeg" alt="My Image 9">
                         <figcaption class="caption">
@@ -607,7 +624,7 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="card-item">
+                <li class="card-item" data-aos="fade-down-left">
                     <figure class="card">
                         <img src="assets/img/myImage11.jpeg" alt="My Image 10">
                         <figcaption class="caption">
@@ -632,7 +649,9 @@
 
     <section class="project-cards-wrapper">
 
-        <div class="project-card-grid-space">
+        <div class="project-card-grid-space" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
             <div class="num">01</div>
             <a class="project_card" href="https://github.com/NimnaKs/PRF-program" style="--bg-img1: url(assets/img/prfCourse.png)">
                 <div>
@@ -644,7 +663,9 @@
                 </div>
             </a>
         </div>
-        <div class="project-card-grid-space">
+        <div class="project-card-grid-space" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
             <div class="num">02</div>
             <a class="project_card" href="https://github.com/NimnaKs/Project-Crisis" style="--bg-img1: url(assets/img/ProjectCrisis.png)">
                 <div>
@@ -657,7 +678,9 @@
                 </div>
             </a>
         </div>
-        <div class="project-card-grid-space">
+        <div class="project-card-grid-space" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
             <div class="num">03</div>
             <a class="project_card" href="https://github.com/NimnaKs/Connect-04-Game" style="--bg-img1: url(assets/img/Connect4.png)">
                 <div>
@@ -669,7 +692,9 @@
                 </div>
             </a>
         </div>
-        <div class="project-card-grid-space">
+        <div class="project-card-grid-space" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
             <div class="num">04</div>
             <a class="project_card" href="https://github.com/NimnaKs/Post-Office-Management-System-In-Layered-Structure" style="--bg-img1: url(assets/img/postOfficeManagementSystem.png)">
                 <div>
@@ -682,7 +707,9 @@
                 </div>
             </a>
         </div>
-        <div class="project-card-grid-space">
+        <div class="project-card-grid-space" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
             <div class="num">05</div>
             <a class="project_card" href="https://github.com/NimnaKs/Hostel-Management-System" style="--bg-img1: url(assets/img/Hostal_Management_System_Dashboard.png)">
                 <div>
@@ -694,7 +721,9 @@
                 </div>
             </a>
         </div>
-        <div class="project-card-grid-space">
+        <div class="project-card-grid-space" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
             <div class="num">06</div>
             <a class="project_card" href="https://github.com/NimnaKs/ChatApp" style="--bg-img1: url(assets/img/chatApp.png)">
                 <div>
@@ -713,7 +742,8 @@
 <!--///////////////////////////Contact Section Creation//////////////////////////////-->
 
 <main id="contact">
-<div class="background">
+<div class="background" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
     <div class="contact-container">
         <div class="contact-screen">
             <div class="screen-header">
@@ -831,9 +861,14 @@
 
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="https://kit.fontawesome.com/your_kit_code.js" crossorigin="anonymous"></script>
 <script src="script/jsScript/jquery.min.js"></script>
 <script src="script/navBarScript.js"></script>
+<script src="script/loaderScript.js"></script>
 
 </body>
 </html>

@@ -188,7 +188,7 @@
         padding: 4rem 2rem;
     }
     #Project .project_card {
-        max-width: calc(100vw - 4rem);
+        max-width: calc(100vw - 10rem);
     }
 }
 
@@ -202,7 +202,25 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
+    #Project .project-card-grid-space{
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #Project .project-card-grid-space{
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #Project .project-cards-wrapper {
+        padding: 4rem 2rem;
+    }
+    #Project .project_card {
+        max-width: calc(100vw - 3.8rem);
+    }
     #Project .project-card-grid-space{
         margin-left: -32px;
     }
