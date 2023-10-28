@@ -126,15 +126,9 @@ footer .footer-menu ul li a:hover{
     }
 }
 
-@media (max-width:325px) {
-    footer .footer-menu {
-        margin-right: -23px;
-    }
-    footer .footer-menu ul li{
-        font-size: 13px;
-    }
+@media (max-width:425px) {
     footer .footer-bottom p {
-        margin-left: 64px;
+        margin-left: 95px;
     }
 }
 
@@ -150,8 +144,14 @@ footer .footer-menu ul li a:hover{
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:320px) {
+    footer .footer-menu {
+        margin-right: -23px;
+    }
+    footer .footer-menu ul li{
+        font-size: 13px;
+    }
     footer .footer-bottom p {
-        margin-left: 95px;
+        margin-left: 64px;
     }
 }

@@ -1,31 +1,67 @@
-
-.loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #333;
-    color: #fff;
+#preloader {
+    /*background: orange;*/
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
 }
 
-.loader {
-    border: 6px solid #f3f3f3;
-    border-top: 6px solid #3498db;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 2s linear infinite;
+#preloader-over-layer {
+    background: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.8;
 }
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+#preloader>img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 
-body{
-    display: none;
+#outline {
+    stroke-dasharray: 2.42777px, 242.77666px;
+    stroke-dashoffset: 0;
+    -webkit-animation: anim 1.6s linear infinite;
+    animation: anim 1.6s linear infinite;
 }
 
-.loader{
-    display: block;
+@-webkit-keyframes anim {
+    12.5% {
+        stroke-dasharray: 33.98873px, 242.77666px;
+        stroke-dashoffset: -26.70543px;
+    }
+
+    43.75% {
+        stroke-dasharray: 84.97183px, 242.77666px;
+        stroke-dashoffset: -84.97183px;
+    }
+
+    100% {
+        stroke-dasharray: 2.42777px, 242.77666px;
+        stroke-dashoffset: -240.34889px;
+    }
+}
+
+@keyframes anim {
+    12.5% {
+        stroke-dasharray: 33.98873px, 242.77666px;
+        stroke-dashoffset: -26.70543px;
+    }
+
+    43.75% {
+        stroke-dasharray: 84.97183px, 242.77666px;
+        stroke-dashoffset: -84.97183px;
+    }
+
+    100% {
+        stroke-dasharray: 2.42777px, 242.77666px;
+        stroke-dashoffset: -240.34889px;
+    }
 }
